@@ -1,0 +1,25 @@
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: navy;
+    color: #FFF;
+}
+
+.rectangle-color {
+    background-color: peru;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+}
+
+.site-rectangle {
+    width: 400px;
+    height: 100px;
+}

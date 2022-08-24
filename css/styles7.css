@@ -1,0 +1,60 @@
+/* At the top of the file when you use variables in CSS*/
+:root {
+
+/* Fonts */
+--regular: "Arial";
+
+/* Colors */
+--dark-brown: #402214;
+--lighter-brown: #774231;
+--lightest-brown: #aa4b1b;
+
+--darker-red: #b31714;
+--lighter-red: #dc3439;
+--red: #F00;
+
+--yellow: #FF0;
+
+--white: #FFF;
+--black: #000;
+
+
+/*Margin */
+--larger-margin: 40px;
+--normal-margin: 20px;
+--small-margin: 5px;
+
+/* padding */
+--larger-padding: 30px;
+--normal-padding: 20px;
+--small-padding: 10px;
+}
+
+/* Usage */
+
+h1 {
+    font-family: var(regular);
+    color: var(--red);
+}
+
+ul {
+    font-family: var(regular);
+    color: var(--yellow);
+}
+
+
+.site-square {
+    width: 200px;
+    height: auto;
+    background-color: #000;
+    margin: var(--normal-margin);
+    padding: var(--normal-padding);
+}
+
+.site-rectangle {
+    width: 500px;
+    height: auto;
+    background-color: #000;
+    margin: var(--small-margin);
+    padding: var(--small-padding);
+}

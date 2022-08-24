@@ -1,0 +1,10 @@
+.red-square {
+    color: black;
+    background-color: #f00;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    font-size: medium;
+}

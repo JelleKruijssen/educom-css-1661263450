@@ -1,0 +1,100 @@
+.html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 100% - 100px;
+    background-color: #FFF;
+    color: #000;
+    padding: 40px;
+}
+
+.content {
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 70vh;
+}
+
+.img1 {
+    background: url("https://img.freepik.com/vrije-photo/zwart-wit-colosseum-in-rome_53876-145036.jpg?w=1480&t=st=1661413680~exp=1661414280~hmac=2d962a25e991d6e004ce8cb558d37db3eba90e4facf98b459cf7ff44478a94b9");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: block;
+    width: 50vh;
+    height: 30vh;
+    margin: auto;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    line-height: 12;
+}
+
+.img2 {
+    background: url("https://cdn.pixabay.com/photo/2015/07/27/20/29/atomium-863488_960_720.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: block;
+    width: 50vh;
+    height: 30vh;
+    margin: auto;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    line-height: 12;
+}
+
+.img3 {
+    background: url("https://static.posters.cz/image/750webp/6977.webp");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: block;
+    width: 50vh;
+    height: 30vh;
+    margin: auto;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    line-height: 12;
+}
+
+.img1:hover {
+    transform: scale(1.2);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.img2:hover {
+    transform: scale(1.2);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.img3:hover {
+    transform: scale(1.2);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.footer {
+    background-color: #C0C0c0;
+    padding: 6.85vh;
+    color: #000;
+}
